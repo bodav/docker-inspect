@@ -7,7 +7,5 @@ services:
         - PLATFORM=lts-buster
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-    networks:
-      - docker-inspect
     ports:
       - "8078:8078"
