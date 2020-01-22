@@ -1,6 +1,6 @@
 version: "3"
 services:
-  docker-inspect-api:
+  api:
     build:
       context: https://github.com/bodav/docker-inspect-api.git
       args: 
