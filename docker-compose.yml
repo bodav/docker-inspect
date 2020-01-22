@@ -5,6 +5,7 @@ services:
       context: https://github.com/bodav/docker-inspect-api.git
       args: 
         - PLATFORM=lts-buster
+    restart: always
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     ports:
